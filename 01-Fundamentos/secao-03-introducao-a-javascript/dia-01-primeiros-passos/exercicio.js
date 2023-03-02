@@ -1,6 +1,7 @@
 let a = 3;
 let b = 8;
 let c = 20;
+let num = 5;
 
 //exibir o resultado no console: 
 console.log("Adição:" + (a+b));
@@ -19,8 +20,17 @@ if (a > b) {
 //exibir o maior de 3 números:
 if (a > b && a > c) {
     console.log ("O maior número é: " + a + " (a)");
-} else if (b > a && b > a) {
+} else if (b > a && b > c) {
     console.log ("O maior número é: " + b + " (b)");
 } else {
     console.log ("O maior número é: " + c + " (c)");
+}
+
+//número positivo ou negativo 
+if (numb > 0){
+    console.log("positive");
+} else if (num < 0) {
+    console.log("negative");
+} else {
+    console.log("zero");
 }
