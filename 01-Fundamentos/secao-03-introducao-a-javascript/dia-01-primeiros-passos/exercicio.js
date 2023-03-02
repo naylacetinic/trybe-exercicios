@@ -9,3 +9,9 @@ console.log("Multiplicação:" + (a*b));
 console.log("Divisão:" + (a/b));
 console.log("Módulo:" + (a%b));
 
+//exibir o maior de 2 números:
+if (a > b) {
+    console.log("'a' é maior que 'b'");
+} else {
+    console.log("'b' é maior que 'a'");
+}
