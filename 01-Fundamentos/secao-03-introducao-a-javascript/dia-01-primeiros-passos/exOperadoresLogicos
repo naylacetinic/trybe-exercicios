@@ -1,4 +1,4 @@
-// Exercício de fixação do operador lógico && (e)
+// Exercício de fixação do operador lógico && (and)
 let currentHour = 23;
 let message = "";
 if (currentHour >= 22){
@@ -14,7 +14,7 @@ if (currentHour >= 22){
 }
 console.log(message);
 
-// Exercício de fixação do operador lógico || (ou)
+// Exercício de fixação do operador lógico || (or)
 let weekDay = "sábado";
 if (weekDay === "segunds-feira" || weekDay === "terça-feira" ||
     weekDay === "quarta-feira" || weekDay === "quinta-feira" ||
