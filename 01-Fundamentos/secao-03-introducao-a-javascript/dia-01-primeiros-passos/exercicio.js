@@ -2,6 +2,12 @@ let a = 3;
 let b = 8;
 let c = 20;
 let num = 5;
+let angA = 90;
+let angB = 45;
+let angC = 45;
+let somaAng = angA + angB + angC;
+let angPositivos = angA > 0 && angB > 0 && angC > 0;
+
 
 //exibir o resultado no console: 
 console.log("Adição:" + (a+b));
@@ -27,10 +33,21 @@ if (a > b && a > c) {
 }
 
 //número positivo ou negativo 
-if (numb > 0){
+if (num > 0){
     console.log("positive");
 } else if (num < 0) {
     console.log("negative");
 } else {
     console.log("zero");
+}
+
+//é ou não um triângulo pelos ângulos internos
+if (angPositivos){
+    if (somaAng === 180) {
+        console.log(true);
+      } else {
+        console.log(false);
+      }
+} else {
+    console.log('Erro: ângulo inválido!');
 }
