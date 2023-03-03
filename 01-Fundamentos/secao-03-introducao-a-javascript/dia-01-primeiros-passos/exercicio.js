@@ -122,7 +122,7 @@
     console.log("Error, os valores não podem ser negativos!");
     }
 
-    //calcular salário líquido pelo salário bruto
+//calcular salário líquido pelo salário bruto
     let liqINSS;
     let liqIR;
     let salarioBruto = 2000.00;
