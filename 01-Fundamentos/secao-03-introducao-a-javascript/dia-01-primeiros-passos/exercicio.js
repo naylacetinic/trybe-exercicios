@@ -111,3 +111,16 @@ if ((numA % 2 === 1 || numB % 2 === 1 || numC % 2 === 1)) {
   nVdd = true;
 };
 console.log(nVdd);
+
+//calcular o lucro
+let custo = 1;
+let valor = 3;
+if (custo >= 0 && valor >= 0) {
+  let totalCusto = custo * 1.2;
+  let total = (valor - totalCusto) * 1000;
+  console.log(total);
+} else {
+  console.log("Error, os valores não podem ser negativos!");
+}
+
+//calcular salário líquido pelo salário bruto
