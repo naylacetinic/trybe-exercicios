@@ -95,7 +95,7 @@ if (nota >= 90 && nota <= 100) {
     console.log("Erro, nota incorreta!");
 }
 
-//defina frue ou false se for ou não par
+//defina true se pelo menos 1 for par
 let numA = 2;
 let numB = 7;
 let numC = 9;
@@ -104,3 +104,10 @@ if ((numA % 2 === 0 || numB % 2 === 0 || numC % 2 === 0)) {
   vdd = true;
 };
 console.log(vdd);
+
+//defina true se pelo menos 1 for ímpar
+let nVdd = false;
+if ((numA % 2 === 1 || numB % 2 === 1 || numC % 2 === 1)) {
+  nVdd = true;
+};
+console.log(nVdd);
